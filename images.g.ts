@@ -1060,6 +1060,23 @@ e e e e . . e e e
 . . e e e e e . . 
 e . . e . . e . e 
 `];
+            case "Smoke":
+            case "anim9":return [img`
+. b b . 
+b . b b 
+b b b b 
+. b . . 
+`, img`
+. . b . 
+. b b . 
+. b . . 
+. . . . 
+`, img`
+. . . . 
+. . . . 
+. . . . 
+. . . . 
+`];
         }
         return null;
     })
