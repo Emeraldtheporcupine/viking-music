@@ -38,6 +38,63 @@ namespace myImages {
 .......f.......
 .......f.......
 `;
+            case "image3":
+            case "Enemy Ship Right":return img`
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . f f 1 b b . . . . 
+. . . . f f f c b 1 b c f . . . 
+. . f f c c c b 1 1 c c c f . . 
+. f c c c c c b 1 1 c 7 7 c f . 
+. f 8 8 6 8 c 1 1 1 7 7 7 7 f . 
+. 8 f f 8 6 8 1 1 b 7 7 7 7 f . 
+. 8 f f 8 6 8 1 1 b 7 7 7 7 f . 
+. f 8 8 6 8 c b 1 b 7 7 7 7 f . 
+. f c c c c c b 1 1 c 7 7 c f . 
+. . f f c c c b 1 1 c c c f . . 
+. . . . f f f c b 1 b c f . . . 
+. . . . . . . f f b 1 b . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+`;
+            case "image2":
+            case "Enemy Ship Up":return img`
+. . . . . . . . . . . . . . . . 
+. . . . . f f 8 8 f f . . . . . 
+. . . . f c 8 f f 8 c f . . . . 
+. . . . f c 8 f f 8 c f . . . . 
+. . . f c c 6 8 8 6 c c f . . . 
+. . . f c c 8 6 6 8 c c f . . . 
+. . . f c c c 8 8 c c c f . . . 
+. . f c b b b 1 1 1 b b c f . . 
+. . f b 1 1 1 1 1 1 1 1 b f . . 
+. . b 1 1 1 b b b 1 1 1 1 1 . . 
+. . 1 b c c 7 7 7 7 c c b b . . 
+. . b c c 7 7 7 7 7 7 c c b . . 
+. . . f c 7 7 7 7 7 7 c f . . . 
+. . . . f c 7 7 7 7 c f . . . . 
+. . . . . f f f f f f . . . . . 
+. . . . . . . . . . . . . . . . 
+`;
+            case "image4":
+            case "Enemy Ship Diagonal":return img`
+. . . . . . . . . . . . . . . . 
+. . . . f f f f . . . . . . . . 
+. . . 8 8 8 c c f f . . . . . . 
+. . 8 f f 8 8 c c c f . . . . . 
+. f 8 f f 8 6 8 c c b b 1 . . . 
+. f 8 8 8 8 6 8 c b 1 1 b b . . 
+. f c 8 6 6 8 c b 1 b c c f . . 
+. f c c 8 8 c b 1 1 c c c f . . 
+. . f c c c 1 1 b c 7 7 7 c f . 
+. . f c c b 1 b c 7 7 7 7 7 f . 
+. . . f 1 1 1 c 7 7 7 7 7 c f . 
+. . . . b 1 b c 7 7 7 7 7 c f . 
+. . . . b 1 c c 7 7 7 7 c f . . 
+. . . . . b f f c 7 c c f . . . 
+. . . . . . . . f f f f . . . . 
+. . . . . . . . . . . . . . . . 
+`;
         }
         return null;
     })
@@ -966,6 +1023,42 @@ namespace myImages {
 ................................
 ................................
 ................................
+`];
+            case "wake":
+            case "anim8":return [img`
+. . . . e e . . . 
+. . . e . . e . . 
+. . e e e . e . . 
+. . . e . e e e . 
+. e e e . e e . . 
+. . e e e e e e . 
+. e . e e e e . . 
+. e . e e e . . . 
+. . . e e e e e . 
+. e . . e e e . . 
+. e e . e e e e . 
+e e e e e e e e e 
+. e . . e . e e . 
+e e e . . e e e e 
+. . e e e e e . . 
+e . e . . e . . e 
+`, img`
+. . . e e . . . . 
+. . e . . e . . . 
+. . e . e e e . . 
+. e e e . e . . . 
+. . e e . e e e . 
+. e e e e e e . . 
+. . e e e e . e . 
+. . . e e e . e . 
+. e e e e e . . . 
+. . e e e . . e . 
+. e e e e . e e . 
+e e e e e e e e e 
+. e e . e . . e . 
+e e e e . . e e e 
+. . e e e e e . . 
+e . . e . . e . e 
 `];
         }
         return null;
