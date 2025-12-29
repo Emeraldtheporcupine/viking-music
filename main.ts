@@ -27,4 +27,5 @@ function Start() {
 }
 let mySprite2: Sprite = null
 let mySprite: Sprite = null
-Start()
+
+scene.setBackgroundImage(assets.image`GameOver`)

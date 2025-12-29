@@ -1,10 +1,10 @@
 // Auto-generated code. Do not edit.
 namespace myImages {
-
-    helpers._registerFactory("image", function(name: string) {
-        switch(helpers.stringTrim(name)) {
-            case "image1":
-            case "Boat":return img`
+  helpers._registerFactory('image', function (name: string) {
+    switch (helpers.stringTrim(name)) {
+      case 'image1':
+      case 'Boat':
+        return img`
 .......f.......
 .......f.......
 .......f.......
@@ -37,9 +37,10 @@ namespace myImages {
 .......f.......
 .......f.......
 .......f.......
-`;
-            case "image4":
-            case "Enemy Ship Diagonal":return img`
+`
+      case 'image4':
+      case 'Enemy Ship Diagonal':
+        return img`
 . . . . . . . . . . . . . . . . 
 . . . . f f f f . . . . . . . . 
 . . . 8 8 8 c c f f . . . . . . 
@@ -56,9 +57,10 @@ namespace myImages {
 . . . . . b f f c 7 c c f . . . 
 . . . . . . . . f f f f . . . . 
 . . . . . . . . . . . . . . . . 
-`;
-            case "image3":
-            case "Enemy Ship Left":return img`
+`
+      case 'image3':
+      case 'Enemy Ship Left':
+        return img`
 . . . . . . . . . . . . . . . . 
 . . . . . . . . . . . . . . . . 
 . . . . . . . f f 1 b b . . . . 
@@ -75,9 +77,10 @@ namespace myImages {
 . . . . . . . f f b 1 b . . . . 
 . . . . . . . . . . . . . . . . 
 . . . . . . . . . . . . . . . . 
-`;
-            case "image2":
-            case "Enemy Ship Up":return img`
+`
+      case 'image2':
+      case 'Enemy Ship Up':
+        return img`
 . . . . . . . . . . . . . . . . 
 . . . . . f f 8 8 f f . . . . . 
 . . . . f c 8 f f 8 c f . . . . 
@@ -94,9 +97,10 @@ namespace myImages {
 . . . . f c 7 7 7 7 c f . . . . 
 . . . . . f f f f f f . . . . . 
 . . . . . . . . . . . . . . . . 
-`;
-            case "image5":
-            case "Title":return img`
+`
+      case 'image5':
+      case 'Title':
+        return img`
 ................................................................................................................................................................
 ................................................................................................................................................................
 ................................................................................................................................................................
@@ -217,9 +221,10 @@ dddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddd
 dddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddd
 dddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddd
 dddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddd
-`;
-            case "image7":
-            case "BoatFront":return img`
+`
+      case 'image7':
+      case 'BoatFront':
+        return img`
 .......5........5.................
 .......5........b.................
 ......5b5......5b.................
@@ -282,9 +287,10 @@ bbf5555555555b5b..................
 ............ffffffffffffffcccccccc
 ..............ffffffffffffffcccccf
 .................fffffffffffffffff
-`;
-            case "image6":
-            case "16x16":return img`
+`
+      case 'image6':
+      case '16x16':
+        return img`
 . . . . . . . . . . . . . . . . 
 . . . . . . . . . . . . . . . . 
 . . . . . . . . . . . . . . . . 
@@ -301,15 +307,141 @@ bbf5555555555b5b..................
 . . . . . . . . . . . . . . . . 
 . . . . . . . . . . . . . . . . 
 . . . . . . . . . . . . . . . . 
-`;
-        }
-        return null;
-    })
+`
+      case 'image8':
+      case 'GameOver':
+        return img`
+    f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f
+    f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f
+    f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f
+    f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f
+    f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f
+    f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f
+    f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f d d f f f f f f f f f d d d f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f d d d d d d f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f d d d d d d d d d d f f f f
+    f f f f f f d d d d f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f d d d d d d f f f f f d d d d d d f f f f f f f f f f f d d d d d f f f f f f f f f f f f f f f f f f f f d d d d d d d d d f f f f f f f f d f f f f f f f f d d d d d f f f f f f d d d d d f f f f f f f f d d d d d d d d d d d d d f f
+    f f f f f d d d d d d d d d d f f f f f f f d d d d d d f f f f f f f f f f f f d d f f d d d d d f f f d f f f d d d d d f f f f f f f f d d d d d d d d d d d f f f f f f f f f f f f f d d f f f f f d d d d d f f f f f d d d f f f f f f d d d d d d d f f f f f d d d d d d d d d d d f f f f f d d d f f f f f d d d d f
+    f f d d d f f f f f f d d d d d f f f f f f f f f d d d d f f f f f f f f f d d d f f f f f d d d d f d f f f f f d d d d d f f f f d d d f f f f f f f f d d d f f f f f f f f f f f f d d f f f f f f f f d d d d f f f d d d d d f f f f f f f f f f d d f f d d d f f f f f f f f d d d f f f f f d d d f f f f f f d d d f
+    f d d f f f f f f f f f f f d f f f f f f f f f d d d d d f f f f f f f f f d d f f f f f f f d d d d f f f f f f f d d d d f f f d d d f f f f f f f f f f d f f f f f f f f f f f f d d f f f f f f f f f f d d d f f f f f d d d f f f f f f f f f f d f f d d d f f f f f f f f f f d f f f f f f d d d f f f f f f d d d f
+    d d d f f f f f f f f f f f f f f f f f f f f f d d f d d d f f f f f f f d d d f f f f f f f f d d d f f f f f f f f d d d d f f d d f f f f f f f f f f f f f f f f f f f f f f f f d d f f f f f f f f f f d d d f f f f f f d d d f f f f f f f f d d f f d d f f f f f f f f f f f f f f f f f f d d d f f f f f f d d f f
+    d d d f f f f f f f f f f f f f f f f f f f f d d f f d d d d f f f f f f d d f f f f f f f f f d d d f f f f f f f f f d d d f f d d f f f f f f f f f f f f f f f f f f f f f f f f d d f f f f f f f f f f f d d f f f f f f d d d f f f f f f f f d f f f d d f f f f f f f f f f f f f f f f f f d d d f f f f f d f f f f
+    d d d f f f f f f f f f f f f f f f f f f f f d f f f f d d d f f f f f f d d f f f f f f f f f d d d f f f f f f f f f d d f f f d d f f f f f f f f f f f f f f f f f f f f f f f f d d f f f f f f f f f f f d d f f f f f f f d d d f f f f f f d f f f f d d f f f f f f f f f f f f f f f f f f d d d f f f d d f f f f f
+    d d d f f f f f f f f d d d d f f f f f f f d d f f f f d d d d f f f f f d d f f f f f f f f f d d d f f f f f f f f d d d f f f d d d d d d d d d d d d d f f f f f f f f f f f f f d d f f f f f f f f f f f d d f f f f f f f d d d f f f f f f d f f f f d d d d d d d d d d d d d f f f f f f f d d d f d d d d f f f f f
+    d d d f f f f f f f d f f d d f f f f f f f d f f f f f f d d d f f f f f d d d f f f f f f f f d d d f f f f f f f f d d f f f f d d d f f f f f f f f f f f f f f f f f f f f f f f d d d f f f f f f f f f f d d f f f f f f f f d d d f f f f d f f f f f d d d f f f f f f f f f f f f f f f f f d d d f f d d d d f f f f
+    d d d d f f f f f f f f f d d f f f f f d d d d d d d d d d d d d f f f f d d d f f f f f f f f d d d f f f f f f f f d d f f f f d d d d f f f f f f f f f f f f f f f f f f f f f f d d d f f f f f f f f f f d d f f f f f f f f d d d f f f f d f f f f f d d d d f f f f f f f f f f f f f f f f d d d f f f d d d d f f f
+    f d d d d f f f f f f f f d d f f f f f d d f f f f f f f f d d d f f f f f d d d f f f f f f f d d d f f f f f f f d d f f f f f f d d d d f f f f f f f f f f f f f f f f f f f f f d d d d f f f f f f f f d d f f f f f f f f f d d d d f f d f f f f f f f d d d d f f f f f f f f f f f f f f f d d d f f f f d d d d f f
+    f f d d d d f f f f f f f d d f f f f f d f f f f f f f f f d d d d f f f f d d d f f f f f f f d d d f f f f f f f d d f f f f f f f d d d d f f f f f f f f f f f f f f f f f f f f f d d d d d f f f f f f d f f f f f f f f f f f d d d f d f f f f f f f f f d d d d f f f f f f f f f f f f f f d d d f f f f f d d d d f
+    f f f d d d d d f f f f d d d f f f f d f f f f f f f f f f f d d d f f f f f d d d f f f f f f d d d f f f f f f d d d d d d f f f f f d d d d d f f f f f d f f f f f f f f f f f f f f d d d d d d d d d d f f f f f f f f f f f f d d d d d f f f f f f f f f f d d d d d f f f f f d f f f f f f d d d f f f f f f d d d d
+    f f f f d d d d d d d d d d d f f f f d f f f f f f f f f f f d d d d d d d f d d f f f f f f f d f f f f f f f f d d d d f f f f f f f f d d d d d d d d d f f f f f f f f f f f f f f f f f d d d d d d f f f f f f f f f f f f f f f d d d f f f f f f f f f f f f d d d d d d d d d f f f f f f f d d f f f f f f f f d d d
+    f f f f f f d d d d f f d d d f f f d f f f f f f f f f f f f f d d d d d f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f d d d d d f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f d d f f f f f f f f f f f f f f f d d d d d f f f f f f f f f f f f f f f f f f f f f f
+    f f f f f f f f f f f f d d d f f d f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f
+    f f f f f f f f f f f f d d f f d f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f
+    f f f f f f f f f f f f d f f d f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f
+    f f f f f f f f f f f d f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f
+    f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f
+    f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f
+    f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f
+    f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f
+    f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f
+    f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f
+    f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f
+    f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f
+    f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f
+    f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f
+    f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f
+    f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f
+    f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f
+    f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f
+    f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f
+    f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f
+    f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f
+    f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f
+    f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f
+    f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f
+    f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f
+    f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f
+    f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f
+    f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f
+    f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f
+    f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f
+    f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f
+    f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f
+    f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f
+    f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f
+    f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f
+    f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f
+    f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f
+    f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f
+    f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f
+    f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f
+    f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f
+    f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f
+    f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f
+    f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f
+    f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f
+    f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f
+    f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f
+    f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f
+    f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f
+    f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f
+    f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f
+    f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f
+    f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f
+    f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f
+    f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f
+    f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f
+    f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f
+    f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f
+    f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f
+    f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f
+    f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f
+    f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f
+    f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f
+    f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f
+    f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f
+    f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f
+    f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f
+    f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f
+    f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f
+    f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f
+    f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f
+    f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f
+    f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f
+    f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f
+    f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f
+    f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f
+    f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f
+    f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f
+    f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f
+    f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f
+    f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f
+    f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f
+    f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f
+    f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f
+    f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f
+    f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f
+    f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f
+    f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f
+    f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f
+    f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f
+    f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f
+    f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f
+    f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f
+    f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f
+    f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f
+    f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f
+    f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f
+    f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f
+    `
+    }
+    return null
+  })
 
-    helpers._registerFactory("animation", function(name: string) {
-        switch(helpers.stringTrim(name)) {
-            case "DOWN":
-            case "anim2":return [img`
+  helpers._registerFactory('animation', function (name: string) {
+    switch (helpers.stringTrim(name)) {
+      case 'DOWN':
+      case 'anim2':
+        return [
+          img`
 .......2....2....2....2....2..22
 .22...212..212..212..212..212212
 .212221112211122111221112211112.
@@ -334,7 +466,8 @@ bbf5555555555b5b..................
 .212212211122111221112211122212.
 212..2..212..212..212..212...22.
 22.......2....2....2....2.......
-`, img`
+`,
+          img`
 ................................
 .......2....2....2....2....2.22.
 ..22..212..212..212..212..21212.
@@ -359,9 +492,12 @@ bbf5555555555b5b..................
 .212.222212..212..212..212..22..
 212......2....2....2....2.......
 22..............................
-`];
-            case "Appear":
-            case "anim3":return [img`
+`,
+        ]
+      case 'Appear':
+      case 'anim3':
+        return [
+          img`
 ................................
 ................................
 ................................
@@ -386,7 +522,8 @@ bbf5555555555b5b..................
 .21112..........................
 222222..........................
 22..............................
-`, img`
+`,
+          img`
 ................................
 ................................
 ................................
@@ -411,7 +548,8 @@ bbf5555555555b5b..................
 .211212121212...................
 2122.2.2.2.2.2..................
 22..............................
-`, img`
+`,
+          img`
 ................................
 ................................
 ................................
@@ -436,7 +574,8 @@ bbf5555555555b5b..................
 .21222..22..22..222.............
 212.............................
 22..............................
-`, img`
+`,
+          img`
 ................................
 ................................
 ................................
@@ -461,7 +600,8 @@ bbf5555555555b5b..................
 .21212.212.212.212.212212.......
 212.2...2...2...2...2..2........
 22..............................
-`, img`
+`,
+          img`
 .......2....2....2....2....2..22
 .22...212..212..212..212..212212
 .212221112211122111221112211112.
@@ -486,9 +626,12 @@ bbf5555555555b5b..................
 .212212211122111221112211122212.
 212..2..212..212..212..212...22.
 22.......2....2....2....2.......
-`];
-            case "UP":
-            case "anim1":return [img`
+`,
+        ]
+      case 'UP':
+      case 'anim1':
+        return [
+          img`
 ................................
 .......2....2....2....2....2.22.
 ..22..212..212..212..212..21212.
@@ -513,7 +656,8 @@ bbf5555555555b5b..................
 .212.222212..212..212..212..22..
 212......2....2....2....2.......
 22..............................
-`, img`
+`,
+          img`
 .......2....2....2....2....2..22
 .22...212..212..212..212..212212
 .212221112211122111221112211112.
@@ -538,9 +682,12 @@ bbf5555555555b5b..................
 .212212211122111221112211122212.
 212..2..212..212..212..212...22.
 22.......2....2....2....2.......
-`];
-            case "Wind":
-            case "anim4":return [img`
+`,
+        ]
+      case 'Wind':
+      case 'anim4':
+        return [
+          img`
 .......f.......
 .......f.......
 .......f.......
@@ -573,7 +720,8 @@ bbf5555555555b5b..................
 .......f.......
 .......f.......
 .......f.......
-`, img`
+`,
+          img`
 .......f.......
 .......f.......
 .......f.......
@@ -606,7 +754,8 @@ bbf5555555555b5b..................
 .......f.......
 .......f.......
 .......f.......
-`, img`
+`,
+          img`
 .......f.......
 .......f.......
 .......f.......
@@ -639,7 +788,8 @@ bbf5555555555b5b..................
 .......f.......
 .......f.......
 .......f.......
-`, img`
+`,
+          img`
 .......f.......
 .......f.......
 .......f.......
@@ -672,9 +822,12 @@ bbf5555555555b5b..................
 .......f.......
 .......f.......
 .......f.......
-`];
-            case "THE WAVE":
-            case "anim5":return [img`
+`,
+        ]
+      case 'THE WAVE':
+      case 'anim5':
+        return [
+          img`
 ....1......eeeee1eeeee..........
 ..11111e111111dddddddde.........
 .11111111111111dddddddde........
@@ -707,7 +860,8 @@ bbf5555555555b5b..................
 ..........edddddddddddddeddde...
 ........eedddddddddddddddeddde..
 ...eeeeeddddddddddddddddddedddee
-`, img`
+`,
+          img`
 ...........1..........1.........
 .1....111....1..................
 .....11111...eeeeeeeeeee........
@@ -740,7 +894,8 @@ bbf5555555555b5b..................
 ............edddeddddddddddddde.
 .........eeeddddedddddddddddddde
 .....eeeeddddeeeddddddddddddddde
-`, img`
+`,
+          img`
 .......1....eeeee1eeeee.........
 ..1111111111111dddddddde........
 .111111111111111dddddd1de.......
@@ -773,9 +928,12 @@ bbf5555555555b5b..................
 ............edddeddddddddddddde.
 ........eeeedddddddddddddddddde.
 ....eeeeddddddddddddddddddddddde
-`];
-            case "SERPENT APPEAR":
-            case "anim7":return [img`
+`,
+        ]
+      case 'SERPENT APPEAR':
+      case 'anim7':
+        return [
+          img`
 ................................
 ................................
 ................................
@@ -808,7 +966,8 @@ bbf5555555555b5b..................
 ................................
 ................................
 ................................
-`, img`
+`,
+          img`
 ................................
 ................................
 ................................
@@ -841,7 +1000,8 @@ bbf5555555555b5b..................
 ................................
 ................................
 ................................
-`, img`
+`,
+          img`
 ................................
 ................................
 ................................
@@ -874,7 +1034,8 @@ bbf5555555555b5b..................
 ................................
 ................................
 ................................
-`, img`
+`,
+          img`
 ................................
 ................................
 ................................
@@ -907,7 +1068,8 @@ bbf5555555555b5b..................
 ................................
 ................................
 ................................
-`, img`
+`,
+          img`
 ................................
 ................................
 ................................
@@ -940,7 +1102,8 @@ bbf5555555555b5b..................
 ................................
 ................................
 ................................
-`, img`
+`,
+          img`
 ................................
 ................................
 ................................
@@ -973,7 +1136,8 @@ bbf5555555555b5b..................
 ................................
 ................................
 ................................
-`, img`
+`,
+          img`
 ................................
 ................................
 ................................
@@ -1006,7 +1170,8 @@ bbf5555555555b5b..................
 ................................
 ................................
 ................................
-`, img`
+`,
+          img`
 ................................
 ................................
 ................................
@@ -1039,7 +1204,8 @@ bbf5555555555b5b..................
 ................................
 ................................
 ................................
-`, img`
+`,
+          img`
 ................................
 ................................
 ................................
@@ -1072,7 +1238,8 @@ bbf5555555555b5b..................
 ................................
 ................................
 ................................
-`, img`
+`,
+          img`
 ................................
 ................................
 ................................
@@ -1105,7 +1272,8 @@ bbf5555555555b5b..................
 ................................
 ................................
 ................................
-`, img`
+`,
+          img`
 ................................
 ................................
 ................................
@@ -1138,7 +1306,8 @@ bbf5555555555b5b..................
 ................................
 ................................
 ................................
-`, img`
+`,
+          img`
 ................................
 ................................
 ................................
@@ -1171,7 +1340,8 @@ bbf5555555555b5b..................
 ................................
 ................................
 ................................
-`, img`
+`,
+          img`
 ................................
 ................................
 ................................
@@ -1204,9 +1374,12 @@ bbf5555555555b5b..................
 ................................
 ................................
 ................................
-`];
-            case "wake":
-            case "anim8":return [img`
+`,
+        ]
+      case 'wake':
+      case 'anim8':
+        return [
+          img`
 . . . . e e . . . 
 . . . e . . e . . 
 . . e e e . e . . 
@@ -1223,7 +1396,8 @@ e e e e e e e e e
 e e e . . e e e e 
 . . e e e e e . . 
 e . e . . e . . e 
-`, img`
+`,
+          img`
 . . . e e . . . . 
 . . e . . e . . . 
 . . e . e e e . . 
@@ -1240,9 +1414,12 @@ e e e e e e e e e
 e e e e . . e e e 
 . . e e e e e . . 
 e . . e . . e . e 
-`];
-            case "Fire":
-            case "anim6":return [img`
+`,
+        ]
+      case 'Fire':
+      case 'anim6':
+        return [
+          img`
 . . . . . 
 . . . . . 
 . . . . . 
@@ -1251,7 +1428,8 @@ e . . e . . e . e
 . 8 a 8 . 
 8 a a a 8 
 . a a 8 . 
-`, img`
+`,
+          img`
 . . 8 . . 
 . . 8 . . 
 . 8 a 8 . 
@@ -1260,7 +1438,8 @@ e . . e . . e . e
 8 a a 8 . 
 8 a a a 8 
 . 8 a a 8 
-`, img`
+`,
+          img`
 . . . . . 
 . . . . . 
 . . 8 . . 
@@ -1269,39 +1448,48 @@ e . . e . . e . e
 . 8 a 8 . 
 8 a a 8 . 
 . 8 a a . 
-`];
-            case "Dots":
-            case "anim10":return [img`
+`,
+        ]
+      case 'Dots':
+      case 'anim10':
+        return [
+          img`
 . 1 b b . . . c c c . . . c c c . 
 1 1 1 b b . c . . . c . c . . . c 
 b 1 b b b . c . . . c . c . . . c 
 b b b c b . c . . . c . c . . . c 
 b b c c b . c . . . c . c . . . c 
 . b b b . . . c c c . . . c c c . 
-`, img`
+`,
+          img`
 . 1 b b . . . 1 b b . . . c c c . 
 1 1 1 b b . 1 1 1 b b . c . . . c 
 b 1 b b b . b 1 b b b . c . . . c 
 b b b c b . b b b c b . c . . . c 
 b b c c b . b b c c b . c . . . c 
 . b b b . . . b b b . . . c c c . 
-`, img`
+`,
+          img`
 . 2 8 8 . . . 2 8 8 . . . 2 8 8 . 
 2 2 2 8 8 . 2 2 2 8 8 . 2 2 2 8 8 
 8 2 8 8 8 . 8 2 8 8 8 . 8 2 8 8 8 
 8 8 8 6 8 . 8 8 8 6 8 . 8 8 8 6 8 
 8 8 6 6 8 . 8 8 6 6 8 . 8 8 6 6 8 
 . 8 8 8 . . . 8 8 8 . . . 8 8 8 . 
-`, img`
+`,
+          img`
 . 2 8 8 . . . 2 8 8 . . . 2 8 8 . 
 2 2 2 8 8 . 2 2 2 8 8 . 2 2 2 8 8 
 8 2 8 8 8 . 8 2 8 8 8 . 8 2 8 8 8 
 8 8 8 6 8 . 8 8 8 6 8 . 8 8 8 6 8 
 8 8 6 6 8 . 8 8 6 6 8 . 8 8 6 6 8 
 . 8 8 8 . . . 8 8 8 . . . 8 8 8 . 
-`];
-            case "-totally a tentacle-":
-            case "anim9":return [img`
+`,
+        ]
+      case '-totally a tentacle-':
+      case 'anim9':
+        return [
+          img`
 ........................
 ........................
 ...e....e...............
@@ -1362,7 +1550,8 @@ e..fcbb555bf.e..........
 .......fcbb555bbf.e.....
 .....e.fcbb5555bf.......
 .......fccb5555bbf.e....
-`, img`
+`,
+          img`
 ........................
 .............e..........
 ........................
@@ -1423,7 +1612,8 @@ e....fbb555bcf..........
 .......fcbb555bbf.......
 .......fcbb555bbf.......
 .......fccb555bccf......
-`, img`
+`,
+          img`
 ........................
 .............e..........
 ............f...........
@@ -1484,7 +1674,8 @@ e....fbb555bcf..........
 .....e.fcbbb555bf..e....
 .......fccbb555bf.......
 .......fcccb555bcf......
-`, img`
+`,
+          img`
 ........................
 ............f....e......
 ......e....ff...........
@@ -1545,7 +1736,8 @@ e....fbb555bcf..........
 .......fcbb555bbbf......
 .......fccbb55bbcf......
 .......fcccb55bcf.......
-`, img`
+`,
+          img`
 ........................
 ........................
 ........................
@@ -1606,7 +1798,8 @@ e....fbb555bcf..........
 ....e..fcbbb555bcf......
 ....e..fccbb55bbcf.e....
 .......fcccb55bcf.......
-`, img`
+`,
+          img`
 ........................
 ............f......e....
 ...e.......ff...........
@@ -1667,7 +1860,8 @@ e....fbb555bcf..........
 .......fcbb555bbbf......
 ..e....fccbb55bbcf...e..
 .......fcccb55bcf.......
-`, img`
+`,
+          img`
 ........................
 ........................
 ............f...........
@@ -1728,7 +1922,8 @@ e....fbb555bcf..........
 .......fcbbb555bf.......
 .......fccbb555bf.......
 ...e...fcccb555bcf......
-`, img`
+`,
+          img`
 ..............e.........
 ........................
 ........................
@@ -1789,9 +1984,12 @@ e....fbb555bcf..........
 .......fcbb555bbf.......
 .......fcbb555bbf.......
 .......fccb555bccf......
-`];
-            case "Scroll out":
-            case "anim11":return [img`
+`,
+        ]
+      case 'Scroll out':
+      case 'anim11':
+        return [
+          img`
 ................................................................................................................................................................
 ................................................................................................................................................................
 ................................................................................................................................................................
@@ -1862,7 +2060,8 @@ e....fbb555bcf..........
 ................................................................................................................................................................
 ................................................................................................................................................................
 ................................................................................................................................................................
-`, img`
+`,
+          img`
 ................................................................................................................................................................
 ................................................................................................................................................................
 ................................................................................................................................................................
@@ -1933,7 +2132,8 @@ e....fbb555bcf..........
 ................................................................................................................................................................
 ................................................................................................................................................................
 ................................................................................................................................................................
-`, img`
+`,
+          img`
 ................................................................................................................................................................
 ................................................................................................................................................................
 ................................................................................................................................................................
@@ -2004,7 +2204,8 @@ e....fbb555bcf..........
 ................................................................................................................................................................
 ................................................................................................................................................................
 ................................................................................................................................................................
-`, img`
+`,
+          img`
 ................................................................................................................................................................
 ................................................................................................................................................................
 ................................................................................................................................................................
@@ -2075,7 +2276,8 @@ e....fbb555bcf..........
 ................................................................................................................................................................
 ................................................................................................................................................................
 ................................................................................................................................................................
-`, img`
+`,
+          img`
 ................................................................................................................................................................
 ................................................................................................................................................................
 ................................................................................................................................................................
@@ -2146,7 +2348,8 @@ e....fbb555bcf..........
 ................................................................................................................................................................
 ................................................................................................................................................................
 ................................................................................................................................................................
-`, img`
+`,
+          img`
 ................................................................................................................................................................
 ................................................................................................................................................................
 ................................................................................................................................................................
@@ -2217,7 +2420,8 @@ e....fbb555bcf..........
 ................................................................................................................................................................
 ................................................................................................................................................................
 ................................................................................................................................................................
-`, img`
+`,
+          img`
 ................................................................................................................................................................
 ................................................................................................................................................................
 ................................................................................................................................................................
@@ -2288,7 +2492,8 @@ e....fbb555bcf..........
 ................................................................................................................................................................
 ................................................................................................................................................................
 ................................................................................................................................................................
-`, img`
+`,
+          img`
 ................................................................................................................................................................
 ................................................................................................................................................................
 ................................................................................................................................................................
@@ -2359,7 +2564,8 @@ e....fbb555bcf..........
 ................................................................................................................................................................
 ................................................................................................................................................................
 ................................................................................................................................................................
-`, img`
+`,
+          img`
 ................................................................................................................................................................
 ................................................................................................................................................................
 ................................................................................................................................................................
@@ -2430,7 +2636,8 @@ e....fbb555bcf..........
 ................................................................................................................................................................
 ................................................................................................................................................................
 ................................................................................................................................................................
-`, img`
+`,
+          img`
 ................................................................................................................................................................
 ................................................................................................................................................................
 ................................................................................................................................................................
@@ -2501,7 +2708,8 @@ e....fbb555bcf..........
 ................................................................................................................................................................
 ................................................................................................................................................................
 ................................................................................................................................................................
-`, img`
+`,
+          img`
 ................................................................................................................................................................
 ................................................................................................................................................................
 ................................................................................................................................................................
@@ -2572,7 +2780,8 @@ e....fbb555bcf..........
 ................................................................................................................................................................
 ................................................................................................................................................................
 ................................................................................................................................................................
-`, img`
+`,
+          img`
 ................................................................................................................................................................
 ................................................................................................................................................................
 ................................................................................................................................................................
@@ -2643,7 +2852,8 @@ e....fbb555bcf..........
 ................................................................................................................................................................
 ................................................................................................................................................................
 ................................................................................................................................................................
-`, img`
+`,
+          img`
 ................................................................................................................................................................
 ................................................................................................................................................................
 ................................................................................................................................................................
@@ -2714,7 +2924,8 @@ e....fbb555bcf..........
 ................................................................................................................................................................
 ................................................................................................................................................................
 ................................................................................................................................................................
-`, img`
+`,
+          img`
 ................................................................................................................................................................
 ................................................................................................................................................................
 ................................................................................................................................................................
@@ -2785,9 +2996,12 @@ e....fbb555bcf..........
 ................................................................................................................................................................
 ................................................................................................................................................................
 ................................................................................................................................................................
-`];
-            case "Title Fade in":
-            case "anim12":return [img`
+`,
+        ]
+      case 'Title Fade in':
+      case 'anim12':
+        return [
+          img`
 ................................................................................................................................................................
 ................................................................................................................................................................
 ................................................................................................................................................................
@@ -2858,7 +3072,8 @@ e....fbb555bcf..........
 ................................................................................................................................................................
 ................................................................................................................................................................
 ................................................................................................................................................................
-`, img`
+`,
+          img`
 ................................................................................................................................................................
 ................................................................................................................................................................
 ................................................................................................................................................................
@@ -2929,7 +3144,8 @@ e....fbb555bcf..........
 ................................................................................................................................................................
 ................................................................................................................................................................
 ................................................................................................................................................................
-`, img`
+`,
+          img`
 ................................................................................................................................................................
 ................................................................................................................................................................
 ................................................................................................................................................................
@@ -3000,7 +3216,8 @@ e....fbb555bcf..........
 ................................................................................................................................................................
 ................................................................................................................................................................
 ................................................................................................................................................................
-`, img`
+`,
+          img`
 ................................................................................................................................................................
 ................................................................................................................................................................
 ................................................................................................................................................................
@@ -3071,7 +3288,8 @@ e....fbb555bcf..........
 ................................................................................................................................................................
 ................................................................................................................................................................
 ................................................................................................................................................................
-`, img`
+`,
+          img`
 ................................................................................................................................................................
 ................................................................................................................................................................
 ................................................................................................................................................................
@@ -3142,9 +3360,12 @@ e....fbb555bcf..........
 ................................................................................................................................................................
 ................................................................................................................................................................
 ................................................................................................................................................................
-`];
-            case "MENU":
-            case "anim13":return [img`
+`,
+        ]
+      case 'MENU':
+      case 'anim13':
+        return [
+          img`
 8 8 . . . 8 8 . 8 8 8 8 8 . 8 8 . . . 8 8 . 8 8 . 8 8 
 8 7 8 . 8 7 8 . 8 7 7 7 8 . 8 7 8 . 8 7 8 . 8 7 8 7 8 
 8 7 8 . 8 7 8 . 8 7 8 8 8 . 8 7 8 . 8 7 8 . 8 7 8 7 8 
@@ -3153,7 +3374,8 @@ e....fbb555bcf..........
 8 7 8 7 8 7 8 . 8 7 7 7 8 . 8 7 7 7 7 7 8 . 8 7 7 7 8 
 8 7 8 8 8 7 8 . 8 7 7 7 8 . 8 7 8 7 7 7 8 . 8 7 7 7 8 
 8 8 8 . 8 8 8 . 8 8 8 8 8 . 8 8 8 8 8 8 8 . . 8 8 8 . 
-`, img`
+`,
+          img`
 8 8 . . . 8 8 . 8 8 8 8 8 . 8 8 . . . 8 8 . 8 8 . 8 8 
 8 7 8 . 8 7 8 . 8 7 7 7 8 . 8 7 8 . 8 7 8 . 8 7 8 7 8 
 8 7 8 . 8 7 8 . 8 7 8 8 8 . 8 7 8 . 8 7 8 . 8 7 8 7 8 
@@ -3162,7 +3384,8 @@ e....fbb555bcf..........
 8 7 8 7 8 7 8 . 8 7 7 7 8 . 8 7 7 7 7 7 8 . 8 7 7 7 8 
 8 7 8 8 8 7 8 . 8 7 7 7 8 . 8 7 8 7 7 7 8 . 8 7 7 7 8 
 8 8 8 . 8 8 8 . 8 8 8 8 8 . 8 8 8 8 8 8 8 . . 8 8 8 . 
-`, img`
+`,
+          img`
 8 8 . . . 8 8 . 8 8 8 8 8 . 8 8 . . . 8 8 . 8 8 . 8 8 
 8 7 8 . 8 7 8 . 8 7 7 7 8 . 8 7 8 . 8 7 8 . 8 7 8 7 8 
 8 7 8 . 8 7 8 . 8 7 8 8 8 . 8 7 8 . 8 7 8 . 8 7 8 7 8 
@@ -3171,7 +3394,8 @@ e....fbb555bcf..........
 8 7 8 7 8 7 8 . 8 7 7 7 8 . 8 7 7 7 7 7 8 . 8 7 7 7 8 
 8 7 8 8 8 7 8 . 8 7 7 7 8 . 8 7 8 7 7 7 8 . 8 7 7 7 8 
 8 8 8 . 8 8 8 . 8 8 8 8 8 . 8 8 8 8 8 8 8 . . 8 8 8 . 
-`, img`
+`,
+          img`
 2 2 . . . 8 8 . 8 8 8 8 8 . 8 8 . . . 8 8 . 8 8 . 8 8 
 2 1 2 . 8 7 8 . 8 7 7 7 8 . 8 7 8 . 8 7 8 . 8 7 8 7 8 
 2 1 8 . 8 7 8 . 8 7 8 8 8 . 8 7 8 . 8 7 8 . 8 7 8 7 8 
@@ -3180,7 +3404,8 @@ e....fbb555bcf..........
 8 7 8 7 8 7 8 . 8 7 7 7 8 . 8 7 7 7 7 7 8 . 8 7 7 7 8 
 8 7 8 8 8 7 8 . 8 7 7 7 8 . 8 7 8 7 7 7 8 . 8 7 7 7 8 
 8 8 8 . 8 8 8 . 8 8 8 8 8 . 8 8 8 8 8 8 8 . . 8 8 8 . 
-`, img`
+`,
+          img`
 2 2 . . . 2 8 . 8 8 8 8 8 . 8 8 . . . 8 8 . 8 8 . 8 8 
 2 1 2 . 2 7 8 . 8 7 7 7 8 . 8 7 8 . 8 7 8 . 8 7 8 7 8 
 2 1 2 . 2 7 8 . 8 7 8 8 8 . 8 7 8 . 8 7 8 . 8 7 8 7 8 
@@ -3189,7 +3414,8 @@ e....fbb555bcf..........
 2 1 8 7 8 7 8 . 8 7 7 7 8 . 8 7 7 7 7 7 8 . 8 7 7 7 8 
 2 7 8 8 8 7 8 . 8 7 7 7 8 . 8 7 8 7 7 7 8 . 8 7 7 7 8 
 8 8 8 . 8 8 8 . 8 8 8 8 8 . 8 8 8 8 8 8 8 . . 8 8 8 . 
-`, img`
+`,
+          img`
 2 2 . . . 2 2 . 2 2 8 8 8 . 8 8 . . . 8 8 . 8 8 . 8 8 
 2 1 2 . 2 1 2 . 2 7 7 7 8 . 8 7 8 . 8 7 8 . 8 7 8 7 8 
 2 1 2 . 2 1 2 . 2 7 8 8 8 . 8 7 8 . 8 7 8 . 8 7 8 7 8 
@@ -3198,7 +3424,8 @@ e....fbb555bcf..........
 2 1 2 1 2 1 2 . 8 7 7 7 8 . 8 7 7 7 7 7 8 . 8 7 7 7 8 
 2 1 2 2 2 1 2 . 8 7 7 7 8 . 8 7 8 7 7 7 8 . 8 7 7 7 8 
 2 2 2 . 2 2 2 . 8 8 8 8 8 . 8 8 8 8 8 8 8 . . 8 8 8 . 
-`, img`
+`,
+          img`
 2 2 . . . 2 2 . 2 2 2 2 2 . 8 8 . . . 8 8 . 8 8 . 8 8 
 2 1 2 . 2 1 2 . 2 1 1 1 2 . 8 7 8 . 8 7 8 . 8 7 8 7 8 
 2 1 2 . 2 1 2 . 2 1 2 2 2 . 8 7 8 . 8 7 8 . 8 7 8 7 8 
@@ -3207,7 +3434,8 @@ e....fbb555bcf..........
 2 1 2 1 2 1 2 . 2 1 1 7 8 . 8 7 7 7 7 7 8 . 8 7 7 7 8 
 2 1 2 2 2 1 2 . 2 1 7 7 8 . 8 7 8 7 7 7 8 . 8 7 7 7 8 
 2 2 2 . 2 2 2 . 2 2 8 8 8 . 8 8 8 8 8 8 8 . . 8 8 8 . 
-`, img`
+`,
+          img`
 2 2 . . . 2 2 . 2 2 2 2 2 . 2 2 . . . 8 8 . 8 8 . 8 8 
 2 1 2 . 2 1 2 . 2 1 1 1 2 . 2 1 2 . 8 7 8 . 8 7 8 7 8 
 2 1 2 . 2 1 2 . 2 1 2 2 2 . 2 1 8 . 8 7 8 . 8 7 8 7 8 
@@ -3216,7 +3444,8 @@ e....fbb555bcf..........
 2 1 2 1 2 1 2 . 2 1 1 1 2 . 8 7 7 7 7 7 8 . 8 7 7 7 8 
 2 1 2 2 2 1 2 . 2 1 1 1 2 . 8 7 8 7 7 7 8 . 8 7 7 7 8 
 2 2 2 . 2 2 2 . 2 2 2 2 2 . 8 8 8 8 8 8 8 . . 8 8 8 . 
-`, img`
+`,
+          img`
 2 2 . . . 2 2 . 2 2 2 2 2 . 2 2 . . . 8 8 . 8 8 . 8 8 
 2 1 2 . 2 1 2 . 2 1 1 1 2 . 2 1 2 . 8 7 8 . 8 7 8 7 8 
 2 1 2 . 2 1 2 . 2 1 2 2 2 . 2 1 2 . 8 7 8 . 8 7 8 7 8 
@@ -3225,7 +3454,8 @@ e....fbb555bcf..........
 2 1 2 1 2 1 2 . 2 1 1 1 2 . 2 1 7 7 7 7 8 . 8 7 7 7 8 
 2 1 2 2 2 1 2 . 2 1 1 1 2 . 2 7 8 7 7 7 8 . 8 7 7 7 8 
 2 2 2 . 2 2 2 . 2 2 2 2 2 . 8 8 8 8 8 8 8 . . 8 8 8 . 
-`, img`
+`,
+          img`
 2 2 . . . 2 2 . 2 2 2 2 2 . 2 2 . . . 2 8 . 8 8 . 8 8 
 2 1 2 . 2 1 2 . 2 1 1 1 2 . 2 1 2 . 2 1 8 . 8 7 8 7 8 
 2 1 2 . 2 1 2 . 2 1 2 2 2 . 2 1 2 . 2 7 8 . 8 7 8 7 8 
@@ -3234,7 +3464,8 @@ e....fbb555bcf..........
 2 1 2 1 2 1 2 . 2 1 1 1 2 . 2 1 1 1 7 7 8 . 8 7 7 7 8 
 2 1 2 2 2 1 2 . 2 1 1 1 2 . 2 1 2 1 7 7 8 . 8 7 7 7 8 
 2 2 2 . 2 2 2 . 2 2 2 2 2 . 2 2 2 2 8 8 8 . . 8 8 8 . 
-`, img`
+`,
+          img`
 2 2 . . . 2 2 . 2 2 2 2 2 . 2 2 . . . 2 2 . 2 2 . 8 8 
 2 1 2 . 2 1 2 . 2 1 1 1 2 . 2 1 2 . 2 1 2 . 2 1 2 7 8 
 2 1 2 . 2 1 2 . 2 1 2 2 2 . 2 1 2 . 2 1 2 . 2 1 8 7 8 
@@ -3243,7 +3474,8 @@ e....fbb555bcf..........
 2 1 2 1 2 1 2 . 2 1 1 1 2 . 2 1 1 1 1 1 2 . 8 7 7 7 8 
 2 1 2 2 2 1 2 . 2 1 1 1 2 . 2 1 2 1 1 1 2 . 8 7 7 7 8 
 2 2 2 . 2 2 2 . 2 2 2 2 2 . 2 2 2 2 2 2 2 . . 8 8 8 . 
-`, img`
+`,
+          img`
 2 2 . . . 2 2 . 2 2 2 2 2 . 2 2 . . . 2 2 . 2 2 . 2 8 
 2 1 2 . 2 1 2 . 2 1 1 1 2 . 2 1 2 . 2 1 2 . 2 1 2 7 8 
 2 1 2 . 2 1 2 . 2 1 2 2 2 . 2 1 2 . 2 1 2 . 2 1 2 7 8 
@@ -3252,7 +3484,8 @@ e....fbb555bcf..........
 2 1 2 1 2 1 2 . 2 1 1 1 2 . 2 1 1 1 1 1 2 . 2 1 7 7 8 
 2 1 2 2 2 1 2 . 2 1 1 1 2 . 2 1 2 1 1 1 2 . 2 7 7 7 8 
 2 2 2 . 2 2 2 . 2 2 2 2 2 . 2 2 2 2 2 2 2 . . 8 8 8 . 
-`, img`
+`,
+          img`
 2 2 . . . 2 2 . 2 2 2 2 2 . 2 2 . . . 2 2 . 2 2 . 2 2 
 2 1 2 . 2 1 2 . 2 1 1 1 2 . 2 1 2 . 2 1 2 . 2 1 2 1 2 
 2 1 2 . 2 1 2 . 2 1 2 2 2 . 2 1 2 . 2 1 2 . 2 1 2 1 2 
@@ -3261,7 +3494,8 @@ e....fbb555bcf..........
 2 1 2 1 2 1 2 . 2 1 1 1 2 . 2 1 1 1 1 1 2 . 2 1 1 1 8 
 2 1 2 2 2 1 2 . 2 1 1 1 2 . 2 1 2 1 1 1 2 . 2 1 1 7 8 
 2 2 2 . 2 2 2 . 2 2 2 2 2 . 2 2 2 2 2 2 2 . . 2 8 8 . 
-`, img`
+`,
+          img`
 2 2 . . . 2 2 . 2 2 2 2 2 . 2 2 . . . 2 2 . 2 2 . 2 2 
 2 1 2 . 2 1 2 . 2 1 1 1 2 . 2 1 2 . 2 1 2 . 2 1 2 1 2 
 2 1 2 . 2 1 2 . 2 1 2 2 2 . 2 1 2 . 2 1 2 . 2 1 2 1 2 
@@ -3270,7 +3504,8 @@ e....fbb555bcf..........
 2 1 2 1 2 1 2 . 2 1 1 1 2 . 2 1 1 1 1 1 2 . 2 1 1 1 2 
 2 1 2 2 2 1 2 . 2 1 1 1 2 . 2 1 2 1 1 1 2 . 2 1 1 1 2 
 2 2 2 . 2 2 2 . 2 2 2 2 2 . 2 2 2 2 2 2 2 . . 2 2 2 . 
-`, img`
+`,
+          img`
 8 8 . . . 2 2 . 2 2 2 2 2 . 2 2 . . . 2 2 . 2 2 . 2 2 
 8 7 2 . 2 1 2 . 2 1 1 1 2 . 2 1 2 . 2 1 2 . 2 1 2 1 2 
 8 1 2 . 2 1 2 . 2 1 2 2 2 . 2 1 2 . 2 1 2 . 2 1 2 1 2 
@@ -3279,7 +3514,8 @@ e....fbb555bcf..........
 2 1 2 1 2 1 2 . 2 1 1 1 2 . 2 1 1 1 1 1 2 . 2 1 1 1 2 
 2 1 2 2 2 1 2 . 2 1 1 1 2 . 2 1 2 1 1 1 2 . 2 1 1 1 2 
 2 2 2 . 2 2 2 . 2 2 2 2 2 . 2 2 2 2 2 2 2 . . 2 2 2 . 
-`, img`
+`,
+          img`
 8 8 . . . 2 2 . 2 2 2 2 2 . 2 2 . . . 2 2 . 2 2 . 2 2 
 8 7 8 . 2 1 2 . 2 1 1 1 2 . 2 1 2 . 2 1 2 . 2 1 2 1 2 
 8 7 8 . 2 1 2 . 2 1 2 2 2 . 2 1 2 . 2 1 2 . 2 1 2 1 2 
@@ -3288,7 +3524,8 @@ e....fbb555bcf..........
 2 1 2 1 2 1 2 . 2 1 1 1 2 . 2 1 1 1 1 1 2 . 2 1 1 1 2 
 2 1 2 2 2 1 2 . 2 1 1 1 2 . 2 1 2 1 1 1 2 . 2 1 1 1 2 
 2 2 2 . 2 2 2 . 2 2 2 2 2 . 2 2 2 2 2 2 2 . . 2 2 2 . 
-`, img`
+`,
+          img`
 8 8 . . . 2 2 . 2 2 2 2 2 . 2 2 . . . 2 2 . 2 2 . 2 2 
 8 7 8 . 8 1 2 . 2 1 1 1 2 . 2 1 2 . 2 1 2 . 2 1 2 1 2 
 8 7 8 . 8 1 2 . 2 1 2 2 2 . 2 1 2 . 2 1 2 . 2 1 2 1 2 
@@ -3297,7 +3534,8 @@ e....fbb555bcf..........
 8 7 8 7 2 1 2 . 2 1 1 1 2 . 2 1 1 1 1 1 2 . 2 1 1 1 2 
 8 7 8 8 2 1 2 . 2 1 1 1 2 . 2 1 2 1 1 1 2 . 2 1 1 1 2 
 8 8 8 . 2 2 2 . 2 2 2 2 2 . 2 2 2 2 2 2 2 . . 2 2 2 . 
-`, img`
+`,
+          img`
 8 8 . . . 8 8 . 2 2 2 2 2 . 2 2 . . . 2 2 . 2 2 . 2 2 
 8 7 8 . 8 7 8 . 2 1 1 1 2 . 2 1 2 . 2 1 2 . 2 1 2 1 2 
 8 7 8 . 8 7 8 . 2 1 2 2 2 . 2 1 2 . 2 1 2 . 2 1 2 1 2 
@@ -3306,7 +3544,8 @@ e....fbb555bcf..........
 8 7 8 7 8 7 2 . 2 1 1 1 2 . 2 1 1 1 1 1 2 . 2 1 1 1 2 
 8 7 8 8 8 1 2 . 2 1 1 1 2 . 2 1 2 1 1 1 2 . 2 1 1 1 2 
 8 8 8 . 8 2 2 . 2 2 2 2 2 . 2 2 2 2 2 2 2 . . 2 2 2 . 
-`, img`
+`,
+          img`
 8 8 . . . 8 8 . 8 8 8 8 2 . 2 2 . . . 2 2 . 2 2 . 2 2 
 8 7 8 . 8 7 8 . 8 7 7 1 2 . 2 1 2 . 2 1 2 . 2 1 2 1 2 
 8 7 8 . 8 7 8 . 8 7 2 2 2 . 2 1 2 . 2 1 2 . 2 1 2 1 2 
@@ -3315,7 +3554,8 @@ e....fbb555bcf..........
 8 7 8 7 8 7 8 . 2 1 1 1 2 . 2 1 1 1 1 1 2 . 2 1 1 1 2 
 8 7 8 8 8 7 8 . 2 1 1 1 2 . 2 1 2 1 1 1 2 . 2 1 1 1 2 
 8 8 8 . 8 8 8 . 2 2 2 2 2 . 2 2 2 2 2 2 2 . . 2 2 2 . 
-`, img`
+`,
+          img`
 8 8 . . . 8 8 . 8 8 8 8 8 . 2 2 . . . 2 2 . 2 2 . 2 2 
 8 7 8 . 8 7 8 . 8 7 7 7 8 . 2 1 2 . 2 1 2 . 2 1 2 1 2 
 8 7 8 . 8 7 8 . 8 7 8 8 2 . 2 1 2 . 2 1 2 . 2 1 2 1 2 
@@ -3324,7 +3564,8 @@ e....fbb555bcf..........
 8 7 8 7 8 7 8 . 8 7 7 1 2 . 2 1 1 1 1 1 2 . 2 1 1 1 2 
 8 7 8 8 8 7 8 . 8 7 1 1 2 . 2 1 2 1 1 1 2 . 2 1 1 1 2 
 8 8 8 . 8 8 8 . 8 8 2 2 2 . 2 2 2 2 2 2 2 . . 2 2 2 . 
-`, img`
+`,
+          img`
 8 8 . . . 8 8 . 8 8 8 8 8 . 8 8 . . . 2 2 . 2 2 . 2 2 
 8 7 8 . 8 7 8 . 8 7 7 7 8 . 8 7 8 . 2 1 2 . 2 1 2 1 2 
 8 7 8 . 8 7 8 . 8 7 8 8 8 . 8 7 2 . 2 1 2 . 2 1 2 1 2 
@@ -3333,7 +3574,8 @@ e....fbb555bcf..........
 8 7 8 7 8 7 8 . 8 7 7 7 8 . 2 1 1 1 1 1 2 . 2 1 1 1 2 
 8 7 8 8 8 7 8 . 8 7 7 7 8 . 2 1 2 1 1 1 2 . 2 1 1 1 2 
 8 8 8 . 8 8 8 . 8 8 8 8 8 . 2 2 2 2 2 2 2 . . 2 2 2 . 
-`, img`
+`,
+          img`
 8 8 . . . 8 8 . 8 8 8 8 8 . 8 8 . . . 2 2 . 2 2 . 2 2 
 8 7 8 . 8 7 8 . 8 7 7 7 8 . 8 7 8 . 2 1 2 . 2 1 2 1 2 
 8 7 8 . 8 7 8 . 8 7 8 8 8 . 8 7 8 . 2 1 2 . 2 1 2 1 2 
@@ -3342,7 +3584,8 @@ e....fbb555bcf..........
 8 7 8 7 8 7 8 . 8 7 7 7 8 . 8 7 7 1 1 1 2 . 2 1 1 1 2 
 8 7 8 8 8 7 8 . 8 7 7 7 8 . 8 7 2 1 1 1 2 . 2 1 1 1 2 
 8 8 8 . 8 8 8 . 8 8 8 8 8 . 8 8 2 2 2 2 2 . . 2 2 2 . 
-`, img`
+`,
+          img`
 8 8 . . . 8 8 . 8 8 8 8 8 . 8 8 . . . 8 8 . 2 2 . 2 2 
 8 7 8 . 8 7 8 . 8 7 7 7 8 . 8 7 8 . 8 7 8 . 2 1 2 1 2 
 8 7 8 . 8 7 8 . 8 7 8 8 8 . 8 7 8 . 8 7 2 . 2 1 2 1 2 
@@ -3351,7 +3594,8 @@ e....fbb555bcf..........
 8 7 8 7 8 7 8 . 8 7 7 7 8 . 8 7 7 7 7 1 2 . 2 1 1 1 2 
 8 7 8 8 8 7 8 . 8 7 7 7 8 . 8 7 8 7 7 1 2 . 2 1 1 1 2 
 8 8 8 . 8 8 8 . 8 8 8 8 8 . 8 8 8 8 8 2 2 . . 2 2 2 . 
-`, img`
+`,
+          img`
 8 8 . . . 8 8 . 8 8 8 8 8 . 8 8 . . . 8 8 . 8 8 . 8 2 
 8 7 8 . 8 7 8 . 8 7 7 7 8 . 8 7 8 . 8 7 8 . 8 7 8 1 2 
 8 7 8 . 8 7 8 . 8 7 8 8 8 . 8 7 8 . 8 7 8 . 8 7 2 1 2 
@@ -3360,7 +3604,8 @@ e....fbb555bcf..........
 8 7 8 7 8 7 8 . 8 7 7 7 8 . 8 7 7 7 7 7 8 . 2 1 1 1 2 
 8 7 8 8 8 7 8 . 8 7 7 7 8 . 8 7 8 7 7 7 8 . 2 1 1 1 2 
 8 8 8 . 8 8 8 . 8 8 8 8 8 . 8 8 8 8 8 8 8 . . 2 2 2 . 
-`, img`
+`,
+          img`
 8 8 . . . 8 8 . 8 8 8 8 8 . 8 8 . . . 8 8 . 8 8 . 8 8 
 8 7 8 . 8 7 8 . 8 7 7 7 8 . 8 7 8 . 8 7 8 . 8 7 8 7 8 
 8 7 8 . 8 7 8 . 8 7 8 8 8 . 8 7 8 . 8 7 8 . 8 7 8 7 8 
@@ -3369,7 +3614,8 @@ e....fbb555bcf..........
 8 7 8 7 8 7 8 . 8 7 7 7 8 . 8 7 7 7 7 7 8 . 8 7 1 1 2 
 8 7 8 8 8 7 8 . 8 7 7 7 8 . 8 7 8 7 7 7 8 . 8 1 1 1 2 
 8 8 8 . 8 8 8 . 8 8 8 8 8 . 8 8 8 8 8 8 8 . . 2 2 2 . 
-`, img`
+`,
+          img`
 8 8 . . . 8 8 . 8 8 8 8 8 . 8 8 . . . 8 8 . 8 8 . 8 8 
 8 7 8 . 8 7 8 . 8 7 7 7 8 . 8 7 8 . 8 7 8 . 8 7 8 7 8 
 8 7 8 . 8 7 8 . 8 7 8 8 8 . 8 7 8 . 8 7 8 . 8 7 8 7 8 
@@ -3378,9 +3624,12 @@ e....fbb555bcf..........
 8 7 8 7 8 7 8 . 8 7 7 7 8 . 8 7 7 7 7 7 8 . 8 7 7 7 8 
 8 7 8 8 8 7 8 . 8 7 7 7 8 . 8 7 8 7 7 7 8 . 8 7 7 7 8 
 8 8 8 . 8 8 8 . 8 8 8 8 8 . 8 8 8 8 8 8 8 . . 8 8 8 . 
-`];
-            case "GAME OVER":
-            case "anim14":return [img`
+`,
+        ]
+      case 'GAME OVER':
+      case 'anim14':
+        return [
+          img`
 ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
 ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
 ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
@@ -3501,7 +3750,8 @@ ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
 ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
 ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
 ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
-`, img`
+`,
+          img`
 ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
 ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
 ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
@@ -3622,7 +3872,8 @@ ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
 ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
 ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
 ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
-`, img`
+`,
+          img`
 ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
 ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
 ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
@@ -3743,7 +3994,8 @@ ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
 ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
 ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
 ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
-`, img`
+`,
+          img`
 ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
 ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
 ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
@@ -3864,7 +4116,8 @@ ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
 ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
 ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
 ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
-`, img`
+`,
+          img`
 ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
 ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
 ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
@@ -3985,7 +4238,8 @@ ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
 ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
 ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
 ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
-`, img`
+`,
+          img`
 ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
 ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
 ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
@@ -4106,7 +4360,8 @@ ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
 ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
 ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
 ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
-`, img`
+`,
+          img`
 ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
 ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
 ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
@@ -4227,7 +4482,8 @@ ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
 ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
 ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
 ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
-`, img`
+`,
+          img`
 ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
 ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
 ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
@@ -4348,7 +4604,8 @@ ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
 ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
 ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
 ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
-`, img`
+`,
+          img`
 ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
 ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
 ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
@@ -4469,7 +4726,8 @@ ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
 ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
 ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
 ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
-`, img`
+`,
+          img`
 ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
 ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
 ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
@@ -4590,7 +4848,8 @@ ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
 ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
 ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
 ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
-`, img`
+`,
+          img`
 ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
 ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
 ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
@@ -4711,7 +4970,8 @@ ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
 ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
 ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
 ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
-`, img`
+`,
+          img`
 ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
 ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
 ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
@@ -4832,28 +5092,29 @@ ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
 ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
 ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
 ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
-`];
-        }
-        return null;
-    })
+`,
+        ]
+    }
+    return null
+  })
 
-    helpers._registerFactory("song", function(name: string) {
-        switch(helpers.stringTrim(name)) {
-            case "song1":
-            case "Boat 1":return hex`003c000408020205001c000f0a006400f4010a0000040000000000000000000000000000000002300000000200011108000a00011410001200011118001a00010f20002200011128002a00011430003200011138003a00010f09010e02026400000403780000040a000301000000640001c80000040100000000640001640000040100000000fa0004af00000401c80000040a00019600000414000501006400140005010000002c0104dc00000401fa0000040a0001c8000004140005d0076400140005d0070000c800029001f40105c201f4010a0005900114001400039001000005c201f4010500058403050032000584030000fa00049001000005c201f4010500058403c80032000584030500640005840300009001049001000005c201f4010500058403c80064000584030500c8000584030000f40105ac0d000404a00f00000a0004ac0d2003010004a00f0000280004ac0d9001010004a00f0000280002d00700040408070f0064000408070000c80003c800c8000e7d00c80019000e64000f0032000e78000000fa00032c01c8000ee100c80019000ec8000f0032000edc000000fa0003f401c8000ea901c80019000e90010f0032000ea4010000fa0001c8000004014b000000c800012c01000401c8000000c8000190010004012c010000c80002c800000404c8000f0064000496000000c80002c2010004045e010f006400042c010000640002c409000404c4096400960004f6090000f40102b80b000404b80b64002c0104f40b0000f401022003000004200300040a000420030000ea01029001000004900100040a000490010000900102d007000410d0076400960010d0070000c800a10000000100020f0104000500030f010406000700020f0108000900020e010c000d00010410001100020f0114001500030f010416001700020f0118001900030e01041c001d00030e010420002100020f0124002500030f010426002700020f0128002900020e012c002d00030e010430003100020f0134003500030f010436003700020f0138003900030e01043a003b00020e013c003d00030e01043e003f000101`;
-            case "song2":
-            case "Boat Kraken":return hex`003c000408020204001c00100500640000041e000004000000000000000000000000000a0000042000000010000305080a1000200003060a0c2000300003080c0d30004000030a0d0f09010e02026400000403780000040a000301000000640001c80000040100000000640001640000040100000000fa0004af00000401c80000040a00019600000414000501006400140005010000002c0104dc00000401fa0000040a0001c8000004140005d0076400140005d0070000c800029001f40105c201f4010a0005900114001400039001000005c201f4010500058403050032000584030000fa00049001000005c201f4010500058403c80032000584030500640005840300009001049001000005c201f4010500058403c80064000584030500c8000584030000f40105ac0d000404a00f00000a0004ac0d2003010004a00f0000280004ac0d9001010004a00f0000280002d00700040408070f0064000408070000c80003c800c8000e7d00c80019000e64000f0032000e78000000fa00032c01c8000ee100c80019000ec8000f0032000edc000000fa0003f401c8000ea901c80019000e90010f0032000ea4010000fa0001c8000004014b000000c800012c01000401c8000000c8000190010004012c010000c80002c800000404c8000f0064000496000000c80002c2010004045e010f006400042c010000640002c409000404c4096400960004f6090000f40102b80b000404b80b64002c0104f40b0000f401022003000004200300040a000420030000ea01029001000004900100040a000490010000900102d007000410d0076400960010d0070000c800a10000000100020f0104000500030f010406000700020f0108000900020e010c000d00010410001100020f0114001500030f010416001700020f0118001900030e01041c001d00030e010420002100020f0124002500030f010426002700020f0128002900020e012c002d00030e010430003100020f0134003500030f010436003700020f0138003900030e01043a003b00020e013c003d00030e01043e003f000101`;
-            case "song3":
-            case "Title screen":return hex`00aa000408020307001c00020a006400f4016400000400000000000000000000000000000000033c0000000800011908000c0001240c001000012210001800012418002000012520002800011928002c00011d2c003000011e30003800011d38004000011b08001c000e050046006603320000040a002d0000006400140001000002000002240000000400011904000800011910001400011820002400011924002800011930003400011109010e02026400000403780000040a000301000000640001c80000040100000000640001640000040100000000fa0004af00000401c80000040a00019600000414000501006400140005010000002c0104dc00000401fa0000040a0001c8000004140005d0076400140005d0070000c800029001f40105c201f4010a0005900114001400039001000005c201f4010500058403050032000584030000fa00049001000005c201f4010500058403c80032000584030500640005840300009001049001000005c201f4010500058403c80064000584030500c8000584030000f40105ac0d000404a00f00000a0004ac0d2003010004a00f0000280004ac0d9001010004a00f0000280002d00700040408070f0064000408070000c80003c800c8000e7d00c80019000e64000f0032000e78000000fa00032c01c8000ee100c80019000ec8000f0032000edc000000fa0003f401c8000ea901c80019000e90010f0032000ea4010000fa0001c8000004014b000000c800012c01000401c8000000c8000190010004012c010000c80002c800000404c8000f0064000496000000c80002c2010004045e010f006400042c010000640002c409000404c4096400960004f6090000f40102b80b000404b80b64002c0104f40b0000f401022003000004200300040a000420030000ea01029001000004900100040a000490010000900102d007000410d0076400960010d0070000c800680000000100010e04000500010308000900020e030c000d00020e0310001100010e14001500010318001900020e031c001d00020e0320002100010e24002500010328002900020e032c002d00020e0330003100010e34003500010338003900020e043c003d00020e03`;
-        }
-        return null;
-    })
-
+  helpers._registerFactory('song', function (name: string) {
+    switch (helpers.stringTrim(name)) {
+      case 'song1':
+      case 'Boat 1':
+        return hex`003c000408020205001c000f0a006400f4010a0000040000000000000000000000000000000002300000000200011108000a00011410001200011118001a00010f20002200011128002a00011430003200011138003a00010f09010e02026400000403780000040a000301000000640001c80000040100000000640001640000040100000000fa0004af00000401c80000040a00019600000414000501006400140005010000002c0104dc00000401fa0000040a0001c8000004140005d0076400140005d0070000c800029001f40105c201f4010a0005900114001400039001000005c201f4010500058403050032000584030000fa00049001000005c201f4010500058403c80032000584030500640005840300009001049001000005c201f4010500058403c80064000584030500c8000584030000f40105ac0d000404a00f00000a0004ac0d2003010004a00f0000280004ac0d9001010004a00f0000280002d00700040408070f0064000408070000c80003c800c8000e7d00c80019000e64000f0032000e78000000fa00032c01c8000ee100c80019000ec8000f0032000edc000000fa0003f401c8000ea901c80019000e90010f0032000ea4010000fa0001c8000004014b000000c800012c01000401c8000000c8000190010004012c010000c80002c800000404c8000f0064000496000000c80002c2010004045e010f006400042c010000640002c409000404c4096400960004f6090000f40102b80b000404b80b64002c0104f40b0000f401022003000004200300040a000420030000ea01029001000004900100040a000490010000900102d007000410d0076400960010d0070000c800a10000000100020f0104000500030f010406000700020f0108000900020e010c000d00010410001100020f0114001500030f010416001700020f0118001900030e01041c001d00030e010420002100020f0124002500030f010426002700020f0128002900020e012c002d00030e010430003100020f0134003500030f010436003700020f0138003900030e01043a003b00020e013c003d00030e01043e003f000101`
+      case 'song2':
+      case 'Boat Kraken':
+        return hex`003c000408020204001c00100500640000041e000004000000000000000000000000000a0000042000000010000305080a1000200003060a0c2000300003080c0d30004000030a0d0f09010e02026400000403780000040a000301000000640001c80000040100000000640001640000040100000000fa0004af00000401c80000040a00019600000414000501006400140005010000002c0104dc00000401fa0000040a0001c8000004140005d0076400140005d0070000c800029001f40105c201f4010a0005900114001400039001000005c201f4010500058403050032000584030000fa00049001000005c201f4010500058403c80032000584030500640005840300009001049001000005c201f4010500058403c80064000584030500c8000584030000f40105ac0d000404a00f00000a0004ac0d2003010004a00f0000280004ac0d9001010004a00f0000280002d00700040408070f0064000408070000c80003c800c8000e7d00c80019000e64000f0032000e78000000fa00032c01c8000ee100c80019000ec8000f0032000edc000000fa0003f401c8000ea901c80019000e90010f0032000ea4010000fa0001c8000004014b000000c800012c01000401c8000000c8000190010004012c010000c80002c800000404c8000f0064000496000000c80002c2010004045e010f006400042c010000640002c409000404c4096400960004f6090000f40102b80b000404b80b64002c0104f40b0000f401022003000004200300040a000420030000ea01029001000004900100040a000490010000900102d007000410d0076400960010d0070000c800a10000000100020f0104000500030f010406000700020f0108000900020e010c000d00010410001100020f0114001500030f010416001700020f0118001900030e01041c001d00030e010420002100020f0124002500030f010426002700020f0128002900020e012c002d00030e010430003100020f0134003500030f010436003700020f0138003900030e01043a003b00020e013c003d00030e01043e003f000101`
+      case 'song3':
+      case 'Title screen':
+        return hex`00aa000408020307001c00020a006400f4016400000400000000000000000000000000000000033c0000000800011908000c0001240c001000012210001800012418002000012520002800011928002c00011d2c003000011e30003800011d38004000011b08001c000e050046006603320000040a002d0000006400140001000002000002240000000400011904000800011910001400011820002400011924002800011930003400011109010e02026400000403780000040a000301000000640001c80000040100000000640001640000040100000000fa0004af00000401c80000040a00019600000414000501006400140005010000002c0104dc00000401fa0000040a0001c8000004140005d0076400140005d0070000c800029001f40105c201f4010a0005900114001400039001000005c201f4010500058403050032000584030000fa00049001000005c201f4010500058403c80032000584030500640005840300009001049001000005c201f4010500058403c80064000584030500c8000584030000f40105ac0d000404a00f00000a0004ac0d2003010004a00f0000280004ac0d9001010004a00f0000280002d00700040408070f0064000408070000c80003c800c8000e7d00c80019000e64000f0032000e78000000fa00032c01c8000ee100c80019000ec8000f0032000edc000000fa0003f401c8000ea901c80019000e90010f0032000ea4010000fa0001c8000004014b000000c800012c01000401c8000000c8000190010004012c010000c80002c800000404c8000f0064000496000000c80002c2010004045e010f006400042c010000640002c409000404c4096400960004f6090000f40102b80b000404b80b64002c0104f40b0000f401022003000004200300040a000420030000ea01029001000004900100040a000490010000900102d007000410d0076400960010d0070000c800680000000100010e04000500010308000900020e030c000d00020e0310001100010e14001500010318001900020e031c001d00020e0320002100010e24002500010328002900020e032c002d00020e0330003100010e34003500010338003900020e043c003d00020e03`
+    }
+    return null
+  })
 }
 // Auto-generated code. Do not edit.
 
 // Auto-generated code. Do not edit.
-namespace myTiles {
-
-}
+namespace myTiles {}
 // Auto-generated code. Do not edit.
