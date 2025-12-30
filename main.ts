@@ -34,3 +34,4 @@ let mySprite2: Sprite = null
 let mySprite: Sprite = null
 Start()
 let mySprite20251229T161353318Z = sprites.create(assets.image`GameOver`, SpriteKind.Player)
+mySprite20251229T161353318Z.setPosition(80, 60)
